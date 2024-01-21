@@ -1,0 +1,50 @@
+Script started on Sun Jan 21 04:06:56 2024
+# ec  echo ""^[[DH      Hello and welcome to the new quarter!"
+Hello and welcome to the new quarter!
+# date
+Sun Jan 21 04:07:58 UTC 2024
+# echo $Ho OME
+/root
+# cd $HOME
+# ls
+# mkdir temp
+# mv temp temp_new
+# cd temp_new
+# touch file5
+# echo > file5
+# print     mv file5 test
+# cd ..
+# rm -r temp_new
+# echo ""^[[D           ls
+# cd $HOME
+# mk  dirtemp
+sh: 16: mkdirtemp: not found
+# ^[[A^[[D^[[B^[[B\                 mkdir temp
+# ls
+temp
+#  mv yem   temp temp_new
+# ls
+temp_new
+# touch\\\        cd temp_new
+# echo > file5
+# mv file  5 test
+# ls
+test
+# cd ..
+# ls
+temp_new
+# rm -r temp_	new
+# ls
+# echo ""^[[DIt       "^[[D    ^[[D\      It's a secret!"> secretfile
+# chom  mod a-w secretfile
+# ls -l secretfile
+-r--r--r-- 1 root root 15 Jan 21 04:11 secretfile
+# cat >> secretfile
+hello
+ls
+cat ""^[[D     here" >> secretfile
+# ls -l sec	 cretfile
+-r--r--r-- 1 root root 49 Jan 21 04:13 secretfile
+# exit
+
+Script done on Sun Jan 21 04:16:26 2024
