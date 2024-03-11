@@ -17,8 +17,8 @@ The goal of this project is to create a simulated robot that can explore a maze 
 1. Clone this repository to your local machine.
 2. Navigate to the project directory.
 3. Run the following command to start the ENVIRO container:
-4. docker run -p80:80 -p8765:8765 -v ${PWD}:/source -it klavins/enviro:v1.6 bash
-    Inside the container, navigate to the project directory (`/source`).
+    #docker run -p80:80 -p8765:8765 -v ${PWD}:/source -it klavins/enviro:v1.6 bash#
+4.Inside the container, navigate to the project directory (`/source`).
 5. Build the project by running `make`.
 6. Start the ENVIRO server by running `enviro`.
 7. Open your web browser and visit `http://localhost:8765` to see the simulation.
