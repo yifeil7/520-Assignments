@@ -1,0 +1,36 @@
+{
+  "name": "robot1",
+  "type": "dynamic",
+  "description": "Maze exploring robot",
+  "shape": [
+    { "x": -5, "y": 5 },
+    { "x": 5, "y": 5 },
+    { "x": 5, "y": -5 },
+    { "x": -5, "y": -5 }
+  ],
+  "friction": {
+    "collision": 5,
+    "linear": 40,
+    "rotational": 600
+  },
+  "sensors": [
+    {
+      "type": "range",
+      "location": { "x": 0, "y": 0 },
+      "direction": 0
+    },
+    {
+      "type": "range",
+      "location": { "x": 0, "y": 0 },
+      "direction": 1.57
+    },
+    {
+      "type": "range",
+      "location": { "x": 0, "y": 0 },
+      "direction": 4.71
+    }
+
+  ],
+  "mass": 1,
+  "controller": "lib/robot1.so"
+}

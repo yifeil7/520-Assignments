@@ -1,0 +1,102 @@
+{
+  "name": "Maze Explorer",
+  "ip": "0.0.0.0",
+  "port": 8765,
+  "agents": [
+    {
+      "definition": "defs/robot1.json",
+      "style": {
+        "fill": "lightgreen",
+        "stroke": "black"
+      },
+      "position": {
+        "x": -250,
+        "y": -150,
+        "theta": 0
+      }
+    }
+  ],
+  "statics": [
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "shape": [
+        { "x": -300, "y": -200 },
+        { "x": -300, "y": 200 },
+        { "x": -305, "y": 200 },
+        { "x": -305, "y": -200 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "shape": [
+        { "x": -300, "y": -200 },
+        { "x": -300, "y": -195 },
+        { "x": 300, "y": -195 },
+        { "x": 300, "y": -200 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "shape": [
+        { "x": 300, "y": -200 },
+        { "x": 300, "y": 200 },
+        { "x": 305, "y": 200 },
+        { "x": 305, "y": -200 }
+      ]
+    },
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "shape": [
+        { "x": -300, "y": 200 },
+        { "x": -300, "y": 195 },
+        { "x": 300, "y": 195 },
+        { "x": 300, "y": 200 }
+        
+      ]
+    },
+    {
+      "style": { "fill": "green", "stroke": "black" },
+      "shape": [
+          { "x": 280, "y": -180 },
+          { "x": 290, "y": -180 },
+          { "x": 290, "y": -170 },
+          { "x": 280, "y": -170 }
+      ]
+  }
+
+    {
+      "style": {
+        "fill": "gray",
+        "stroke": "black"
+      },
+      "shape": [
+        { "x": -70, "y": 40 },
+        { "x": -100, "y": 40 },
+        { "x": -100, "y": 75 }
+        
+      ]
+    },
+    
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": -96, "y": 20}, {"x": -126, "y": 20}, {"x": -126, "y": 55}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": -171, "y": -182}, {"x": -201, "y": -182}, {"x": -201, "y": -147}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": -34, "y": 149}, {"x": -64, "y": 149}, {"x": -64, "y": 184}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": -6, "y": -43}, {"x": -36, "y": -43}, {"x": -36, "y": -8}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": 59, "y": 116}, {"x": 29, "y": 116}, {"x": 29, "y": 151}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": 66, "y": 49}, {"x": 36, "y": 49}, {"x": 36, "y": 84}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": 188, "y": -35}, {"x": 158, "y": -35}, {"x": 158, "y": 0}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": 171, "y": 33}, {"x": 141, "y": 33}, {"x": 141, "y": 68}]},
+    {"style": {"fill": "gray", "stroke": "black"}, "shape": [{"x": 144, "y": 133}, {"x": 114, "y": 133}, {"x": 114, "y": 168}]}
+  ]
+}
